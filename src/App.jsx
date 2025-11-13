@@ -1,6 +1,7 @@
 // import { Counterreducer } from "./components/Reducercomponents"
 
 import { Advancedstatemanagement } from "./components/Advancedstatemanagement"
+import { Chnagetheme } from "./components/Themechange"
 // import { Reducercrud } from "./components/ReducerCrud"
 
 function App() {
@@ -10,7 +11,8 @@ function App() {
     <>
       {/* <Counterreducer/> */}
       {/* <Reducercrud/> */}
-      <Advancedstatemanagement/>
+      {/* <Advancedstatemanagement/> */}
+      <Chnagetheme/>
     </>
   )
 }
